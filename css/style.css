@@ -433,9 +433,6 @@ ul {
   .navbar-brand {
     max-width: 150px;
   }
-  .main_menu .navbar .main-menu-item .navbar-nav a:hover {
-    color: #fff;
-  }
   .navbar-collapse {
     z-index: 9999 !important;
     position: absolute;
@@ -470,9 +467,6 @@ ul {
   .navbar-brand {
     max-width: 125px;
   }
-  .main_menu .navbar .main-menu-item .navbar-nav a:hover {
-    color: #fff;
-  }
   .navbar-collapse {
     z-index: 9999 !important;
     position: absolute;
@@ -498,9 +492,6 @@ ul {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .navbar-brand {
     max-width: 125px;
-  }
-  .main_menu .navbar .main-menu-item .navbar-nav a:hover {
-    color: #0073a6;
   }
   .navbar-collapse {
     z-index: 9999 !important;
