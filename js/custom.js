@@ -136,6 +136,19 @@
 		$('html,body').animate({scrollTop:$('#work').offset().top}, 800);
 	});
 
+
+  if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    $(".navbar-nav li a").click(function (e) { 
+      e.preventDefault();
+      $(".navbar-collapse").removeClass("show");
+      
+    });
+  }
+  else {
+     
+  }
+
+
 }(jQuery));
 
 
