@@ -189,6 +189,13 @@
   }
 }
 
+@media (max-width: 414px) { 
+  .slider-nav-thumbnails {
+    min-height: 120px;
+  }
+}
+
+
 
 .slider {
   .slick-list {

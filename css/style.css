@@ -3579,6 +3579,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media (max-width: 414px) {
+  .slider-nav-thumbnails {
+    min-height: 120px;
+  }
+}
+
 .slider .slick-list {
   margin-top: -297px;
   background-color: #f7f7f7;
