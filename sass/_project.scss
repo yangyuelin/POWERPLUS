@@ -72,9 +72,19 @@
                 margin-right: 15px;
             }
             @media #{$medium_device}{
-            
+                
             }
+
         }
+        @media (max-width: 414px) {
+           a {
+                margin-right: 5px;
+                padding: 8px 10px;
+            }
+        
+        }
+
+
         .active{
             border: 1px solid $btn_bg;
             background-color: $btn_bg;
@@ -82,7 +92,7 @@
             @include transform_time(0.5s);
         }
     }
-      
+
     .nav-tabs {
         border-bottom: 0px solid transparent;
     }
@@ -137,3 +147,5 @@
         }
     }
 }
+
+

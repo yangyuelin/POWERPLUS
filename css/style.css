@@ -1246,6 +1246,13 @@ ul {
   }
 }
 
+@media (max-width: 414px) {
+  .portfolio_area .portfolio-filter a {
+    margin-right: 5px;
+    padding: 8px 10px;
+  }
+}
+
 .portfolio_area .portfolio-filter .active {
   border: 1px solid #0073a6;
   background-color: #0073a6;
